@@ -6,7 +6,6 @@ def mysort(*arg_temp):
     for i in range(len(arg)):
         if a > arg[i]:
             (a, arg[i]) = (arg[i], a)
-        a = arg[i]
     return arg
 if __name__ == '__main__':
     a = raw_input('Enter the first  number:')
