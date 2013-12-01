@@ -1,4 +1,5 @@
 clean:
 	rm *# *~ */title*/*~ */title*/*#
-git_clean:
+git-clean:
 	git rm *# */title*/*~ */title*/*~
+
