@@ -1,3 +1,4 @@
+.PHONY:
 clean:
 	rm *# *~ */title*/*~ */title*/*#
 git-clean:
