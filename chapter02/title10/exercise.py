@@ -1,5 +1,8 @@
 #!/usr/bin/python2
+def print_hello():
+    print 'hello world!'
 if __name__ == '__main__':
+    print_hello()
     i = 1
     num = raw_input('Enter a number between 1 and 100:')
     while i == 1:
@@ -10,4 +13,3 @@ if __name__ == '__main__':
         else:
             print 'Eror, You entered %d.' % (int(num))
             num = raw_input('Enter a number between 1 and 100:')
-
